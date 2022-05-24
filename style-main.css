@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+.fContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #73706e;
+}
+
+.wrapper {
+    display: flex; /* membuat elemen sejajar ke samping */
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #2155CD;
+    box-shadow: 0 0 15px 0 #222;
+    
+}
+
+.brand {
+    margin: 0;
+    padding: 0;
+}
+
+.brand > div > img {
+    width: 100px;
+    height: 100px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation > li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigation > li > a:hover {
+    color: #E8F9FD;
+    transition: all .3s ease-in-out;
+}
+
